@@ -5,8 +5,8 @@ import pandas as pd
 from sqlalchemy import create_engine, text
 from tqdm import tqdm
 
-SQLITE_DB_PATH = "F:/database/ref/xqh/bookstore2代码/bookstore/fe/data/book.db"
-DEFAULT_MYSQL_URL = "mysql+pymysql://root:WXRrr20050811@172.25.139.100/bookstore"
+SQLITE_DB_PATH = "F:/database/fe/data/book.db"
+DEFAULT_MYSQL_URL = "mysql+pymysql://root:xxxxx/bookstore"
 MYSQL_URL = os.getenv("BOOKSTORE_DB_URL", DEFAULT_MYSQL_URL)
 TABLE_NAME = "books"
 PICTURE_FOLDER = "F:/database/ref/xqh/bookstore2代码/bookstore/fe/data/pictures"
